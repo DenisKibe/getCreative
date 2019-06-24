@@ -1,0 +1,7 @@
+@media (max-width:576px){
+    .mx-xs-auto{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
