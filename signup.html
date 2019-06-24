@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>signup</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/signup.css" rel="stylesheet">
+  <style>
+  
+  </style>
+</head>
+<body class="fixed-sn">
+<!--Double navigation-->
+    <header >
+        <!--side navigation-->
+        <div id="slide-out" class="side-nav unique-color-dark fixed">
+            <ul class="custom-scrollbar">
+                <!--logo-->
+                <li>
+                    <div class="logo-wrapper waves-light">
+                        <a href="#"><img src="" class="img-fluid flex-center">getCreative</a>
+                    </div>
+                </li>
+                <!--logo-->
+                <!--search Form-->
+                <li>
+                    <form class="search-form" role="search">
+                        <div class="form-group md-form mt-0 pt-1 waves-light">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                </li>
+                <!--/.search form-->
+                <!--Side navigation links-->
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> submit blog<i class="fas fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="waves-effect">submit listing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Registration form</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r"><i class="fas fa-hand-pointer-o"></i>Instructions<i class="fas fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                               <ul>
+                                   <li>
+                                       <a href="#" class="waves-effect">For bloggers</a>
+                                   </li>
+                                   <li>
+                                       <a href="#" class="waves-effect">For authors</a>
+                                   </li>
+                               </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r"><i class="fas fa-eye"></i>About<i class="fas fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                 <ul>
+                                     <li>
+                                         <a href="#" class="waves-effect">Introduction</a>
+                                     </li>
+                                     <li>
+                                         <a href="#" class="waves-effect">Monthly meetings</a>
+                                     </li>
+                                 </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r"><i class="fas fa-envelope-o"></i> Contact me<i class="fas fa-angle-down rotate-icon"></i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="waves-effect">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Write a message</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!--/. side navigation links-->
+            </ul>
+            <div class="sidenav-bg mask-strong"></div>
+        </div>
+        <!--/. side navigation-->
+        <!--Navbar-->
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav unique-color-dark white-text">
+            <!--SideNav slide-out button-->
+            <div class="float-left ">
+                <a href="#" data-activates="slide-out" class="button-collapse">1<i class="fas fa-bars"></i></a>
+            </div>
+            <!--Breadcrumbs-->
+            <div class="breadcrumb-dn mr-auto ml-2 navbar-brand">
+                <a href="#">
+                   <strong>getCreative</strong>
+                </a>
+            </div>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a class="nav-link waves-effect waves-light">1
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      <li class="nav-item avatar dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <img src="img/52.jpg" class="rounded-circle z-depth-0"
+            alt="avatar image">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-secondary"
+          aria-labelledby="navbarDropdownMenuLink-55">
+          <a class="dropdown-item" data-toggle="modal" data-target="#loginModal">Login</a>
+          <a class="dropdown-item" href="signup.html">Sign Up</a>
+        </div>
+      </li>
+    </ul>
+        </nav>
+        <!--/.Navbar-->
+        
+    </header>
+    <!--/.Double navigation-->
+   <main class="pt-5 mt-5">
+    <!--sign up-->
+                    <section class="form-elegant">
+                        <!--form without header-->
+                        <div class="card">
+                            <div class="card-body mx-4">
+                                <!--header-->
+                                <div class="text-center">
+                                    <h3 class="dark-grey-text mb-5"><strong>Sign up</strong></h3>
+                                </div>
+                                
+                                <!--Body-->
+                                <div class="md-form">
+                                    <input type="text" id=form-email1" class="form-control">
+                                    <label for="form-email1">Your email</label>
+                                </div>
+                                
+                                <div class="md-form pb-3">
+                                    <input type="password" id="form-pass1" class="form-control">
+                                    <label for="form-email1">Your password</label>
+                                    <p class="font-small blue-text d-flex justify-content-end">Forgot <a href="#" class="blue-text ml-1">Password?</a></p>
+                                </div>
+                                
+                                <div class="text-center mb-3">
+                                    <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign up</button>
+                                </div>
+                                <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2">or Sign in with:</p>
+                                
+                                <div class="row my-3 d-flex justify-content-center">
+                                    <!--Facebook-->
+                                    <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-facebook blue-text text-center"></i></button>
+                                    <!--Twitter-->
+                                    <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-twitter blue-text"></i></button>
+                                    <!--Google +-->
+                                    <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fa fa-google-plus blue-text"></i></button>
+                                </div>
+                                
+                            </div>
+                            
+                            <!--Footer-->
+                            <div class="modal-footer mx-5 pt-3 mb-1">
+                                <p class="font-small grey-text d-flex justify-content-end">Not a member? <a href="#" class="blue-text ml-1">Sign in</a></p></p>
+                            </div>
+                        </div>
+                    </section>
+                    
+    </main>
+    
+    <!-- Footer -->
+<footer class="page-footer font-small indigo mt-3">
+
+  <!-- Footer Links -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    
+    
+    
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">About us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Products</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Awards</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Help</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Contact</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text"> </i>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!--login modal-->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog form-dark" role="document">
+        <div class="modal-content card card-image" style="background-image:url('img/52.jpg');">
+            <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+                <!--Header-->
+                <div class="modal-header text-center pb-4">
+                    <h3 class="modal-title w-100 white-text font-weight-bold" id="loginModal"><strong>LOG</strong> <a class="green-text font-weight-bold"><strong>IN</strong></a></h3>
+                    <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <!--body-->
+                <div class="md-form mb-5">
+                    <input type="email" id="emailLogin" class="form-control validate white-text">
+                    <label  for="emailLogin">Your email</label>
+                </div>
+                
+                <div class="md-form pb-3">
+                    <input type="password" id="passLogin" class="form-control validate white-text">
+                    <label id="passLabel" data-error="Wrong" data-success="right" for="passLogin">password</label>
+                </div>
+                
+                <!--grid row-->
+                <div class="row d-flex align-items-center mb-4">
+                
+                    <!--Grid column-->
+                    <div class="text-center mb-3 col-md-12">
+                        <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1 disabled" id="btnLogin">Login</button>
+                    </div>
+                </div>
+                
+                <!--Grid row-->
+                <div class="row">
+                    
+                    <!--grid column-->
+                    <div class="col-md-12">
+                        <p class="font-small white-text d-flex justify-content-end">Do not have an account?<a href="signup.html" class="green-text ml-1 font-weight-bold">Sign up</a></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+<!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+  <script>
+  // SideNav Button Initialization
+$(".button-collapse").sideNav();
+// SideNav Scrollbar Initialization
+var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+
+    new WOW().init();
+    
+    
+  </script>
+</body>
+
+</html>
